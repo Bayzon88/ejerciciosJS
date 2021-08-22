@@ -1,4 +1,6 @@
 .grados {
+  padding: 2%;
+  border: solid 2px black;
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7,6 +9,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 5rem;
 }
 
 .grados .input {
@@ -26,5 +29,83 @@
 .botones button {
   min-width: 7rem;
   margin: 0.5rem 1rem;
+}
+
+.calculadoras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calculadora {
+  height: 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+}
+
+.calculadora button {
+  min-width: 3rem;
+  max-height: 3rem;
+}
+
+.textarea {
+  width: 95%;
+  border-radius: 10px;
+}
+
+.b7 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1/1;
+}
+
+.b8 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  grid-column: auto;
+}
+
+.b9 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.b4,
+.b5,
+.b6 {
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.bsum {
+  -ms-grid-column: 4;
+  grid-column: 4/4;
+  -ms-grid-row: 1;
+  grid-row: 1/1;
+}
+
+.brest {
+  -ms-grid-column: 4;
+  grid-column: 4/4;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.brest {
+  -ms-grid-column: 4;
+  grid-column: 4/4;
+  -ms-grid-row: 3;
+  grid-row: 3/3;
+}
+
+.brest {
+  -ms-grid-column: 4;
+  grid-column: 4/4;
+  -ms-grid-row: 4;
+  grid-row: 4/4;
 }
 /*# sourceMappingURL=style.css.map */

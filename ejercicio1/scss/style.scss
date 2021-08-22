@@ -1,7 +1,10 @@
 .grados {
+  padding: 2%;
+  border: solid 2px black;
   width: 20%;
   display: flex;
   flex-direction: column;
+  margin-right: 5rem;
   .input {
     padding: 0.5rem 0;
     margin: 0.3rem 0;
@@ -14,4 +17,60 @@
     min-width: 7rem;
     margin: 0.5rem 1rem;
   }
+}
+.calculadoras {
+  display: flex;
+}
+
+//Calculadora simple
+$firstRow: 1/1;
+
+.calculadora {
+  height: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 0.3rem;
+  button {
+    min-width: 3rem;
+    max-height: 3rem;
+  }
+}
+.textarea {
+  width: 95%;
+  border-radius: 10px;
+}
+.b7 {
+  grid-row: $firstRow;
+  grid-column: 1/1;
+}
+.b8 {
+  grid-row: $firstRow;
+  grid-column: auto;
+}
+.b9 {
+  grid-row: $firstRow;
+}
+
+.b4,
+.b5,
+.b6 {
+  grid-row: 2/2;
+}
+
+.bsum {
+  grid-column: 4/4;
+  grid-row: 1/1;
+}
+.brest {
+  grid-column: 4/4;
+  grid-row: 2/2;
+}
+.brest {
+  grid-column: 4/4;
+  grid-row: 3/3;
+}
+.brest {
+  grid-column: 4/4;
+  grid-row: 4/4;
 }

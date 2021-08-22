@@ -9,26 +9,129 @@
   </head>
   <body>
     <h1>Calculadoras</h1>
-    <section id="grados" class="grados">
-      <label for="celsius">Celsius: </label>
-      <input
-        type="text"
-        id="celsius"
-        class="input"
-        placeholder="Ingrese dato en Celsius"
-      />
-      <label for="farenheit">Farenheit: </label>
-      <input
-        type="text"
-        id="farenheit"
-        class="input"
-        placeholder="Ingrese dato en Farenheit"
-      />
-      <div class="botones">
-        <button type="button" onclick="calcular()">Calcular</button>
-        <button type="button" onclick="borrar()">Borrar</button>
-      </div>
-    </section>
+
+    <!-- Calculadora Celsius - Farenheit -->
+    <div class="calculadoras">
+      <section id="grados" class="grados">
+        <h2>Celsius a Farenheit</h2>
+        <label for="celsius">Celsius: </label>
+        <input
+          type="text"
+          id="celsius"
+          class="input"
+          placeholder="Ingrese dato en Celsius"
+        />
+        <label for="farenheit">Farenheit: </label>
+        <input
+          type="text"
+          id="farenheit"
+          class="input"
+          placeholder="Ingrese dato en Farenheit"
+        />
+        <div class="botones">
+          <button type="button" onclick="calcular()">Calcular</button>
+          <button type="button" onclick="borrar()">Borrar</button>
+        </div>
+      </section>
+      <section id="calculadora">
+        <input type="text" class="textarea" id="resultado" />
+        <div class="calculadora">
+          <!-- <button type="button" class="boton-calculadora b0">0</button> -->
+          <button
+            type="button"
+            class="boton-calculadora b1"
+            onclick="botonNumero(1)"
+          >
+            1
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b2"
+            onclick="botonNumero(2)"
+          >
+            2
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b3"
+            onclick="botonNumero(3)"
+          >
+            3
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b4"
+            onclick="botonNumero(4)"
+          >
+            4
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b5"
+            onclick="botonNumero(5)"
+          >
+            5
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b6"
+            onclick="botonNumero(6)"
+          >
+            6
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b7"
+            onclick="botonNumero(7)"
+          >
+            7
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b8"
+            onclick="botonNumero(8)"
+          >
+            8
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora b9"
+            onclick="botonNumero(9)"
+          >
+            9
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora bsum"
+            onclick="botonFuncion('+')"
+          >
+            +
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora brest"
+            onclick="botonFuncion('-')"
+          >
+            -
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora bmult"
+            onclick="botonFuncion('x')"
+          >
+            x
+          </button>
+          <button
+            type="button"
+            class="boton-calculadora bdiv"
+            onclick="botonFuncion('/')"
+          >
+            /
+          </button>
+          <button type="button" class="boton-calculadora bigual">=</button>
+        </div>
+      </section>
+    </div>
   </body>
   <script src="/ejercicio1/code.js"></script>
 </html>

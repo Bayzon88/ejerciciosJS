@@ -21,3 +21,14 @@ let borrar = () => {
   document.getElementById("celsius").value = "";
   document.getElementById("farenheit").value = "";
 };
+
+//Calculadora simple
+function botonNumero(valor) {
+  document.getElementById("resultado").value =
+    document.getElementById("resultado").value + valor;
+}
+
+function botonFuncion(operador) {
+  document.getElementById("resultado").value =
+    document.getElementById("resultado").value + operador;
+}
