@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAKvB;;AARD,AAIE,OAJK,CAIL,MAAM,CAAC;EACL,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,QAAQ;CACjB;;AAEH,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAKxB;;AAPD,AAGE,QAHM,CAGN,MAAM,CAAC;EACL,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,WAAW;CACpB",
+    "sources": [
+        "../ejercicio1/scss/style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
